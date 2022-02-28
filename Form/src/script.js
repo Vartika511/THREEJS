@@ -21,7 +21,7 @@ const matCapTexture = textureLoader.load('/textures/matcaps/3.png')
 
 const donutGeometry = new THREE.TorusBufferGeometry(0.3, 0.2, 20, 45)
 const donutMaterial = new THREE.MeshMatcapMaterial({ matcap: matCapTexture })
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 300; i++) {
     const donut = new THREE.Mesh(donutGeometry, donutMaterial)
 
     donut.position.x = (Math.random() - 0.5) * 10
@@ -38,7 +38,7 @@ for (let i = 0; i < 200; i++) {
 
 const cubeGeometry = new THREE.BoxBufferGeometry(0.3, 0.3, 0.3)
 const cubeMaterial = new THREE.MeshMatcapMaterial({ matcap: matCapTexture })
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 300; i++) {
     const cube = new THREE.Mesh(cubeGeometry, cubeMaterial)
 
     cube.position.x = (Math.random() - 0.5) * 10
