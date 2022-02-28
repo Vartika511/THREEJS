@@ -14,4 +14,3 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 
-![Finished App](https://user-images.githubusercontent.com/73403577/155996813-36aeb15a-8933-47f0-8a87-463dc577216e.mp4)
